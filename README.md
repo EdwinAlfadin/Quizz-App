@@ -1,5 +1,7 @@
 # 🧠 Quiz App
 
+Live Demo https://edwinalfadin.github.io/Quizz-App/
+
 <p align="center">
   <img src="assets/logo.png" width="120" alt="Quiz App Logo">
 </p>
