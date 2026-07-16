@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- My Style CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Register Quizz App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-box">
+        <img src="assets/logo.png" class="logo" />
+        <h1>Sign Up</h1>
+        <form id="registerForm">
+          <input
+            type="text"
+            id="fullname"
+            placeholder="Masukan Nama Lengkap"
+            required
+          />
+          <input
+            type="text"
+            id="quizNumber"
+            placeholder="Nomor Kuis"
+            required
+          />
+          <input type="email" id="email" placeholder="Masukan Email" required />
+          <input
+            type="password"
+            id="password"
+            placeholder="Masukan Password"
+            required
+          />
+          <button type="submit">Register</button>
+        </form>
+        <p>Sudah punya akun? <a href="login.html">Login</a></p>
+      </div>
+    </div>
+    <!-- My JS -->
+    <script src="js/register.js"></script>
+  </body>
+</html>

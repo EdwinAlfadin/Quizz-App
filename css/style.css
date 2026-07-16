@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4ca1af, #2c92a5);
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  width: 380px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+  width: 70px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.login-box h1 {
+  text-align: center;
+  color: #2c92a5;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #2c92a5;
+  outline: none;
+  font-size: 16px;
+}
+
+input:focus {
+  border-bottom: 2px solid #0f6d82;
+}
+
+button {
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #2c92a5;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #217b8d;
+}
+
+p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+a {
+  color: #2c92a5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-widht: 480px) {
+  .login-box {
+    width: 90%;
+    padding: 30px;
+  }
+}
+
+.rules-box {
+  width: 500px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
+}
+
+.rules-box h2 {
+  text-align: center;
+  color: #2c92a5;
+  margin-bottom: 20px;
+}
+
+.rules-list p {
+  margin: 15px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.buttons button {
+  width: 48%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: .3s;
+}
+
+#exitBtn {
+  background: #dc3545;
+  color: white;
+}
+
+#exitBtn:hover {
+  background: #b52b39;
+}
+
+#startBtn {
+  background: #2c92a5;
+  color: white;
+}
+
+#startBtn:hover {
+  background: #217b8d;
+}
+
+/* Aimasi halaman */
+body {
+  animation: fadeIn .8s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.login-box,
+.register-box,
+.rules-box,
+.quiz-box,
+.result-box {
+  animation: zoomIn .6s ease;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+button {
+  transition: .3s;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .2);
+}
+
+button:active {
+  transform: scale(.96);
+}

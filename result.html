@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- My Style CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/result.css" />
+    <title>Quiz Result</title>
+  </head>
+  <body>
+    <div class="result-container">
+      <div class="result-box">
+        <h2>Quiz Completed!</h2>
+        <div class="progress-circle">
+          <svg width="180" height="180">
+            <circle cx="90" cy="90" r="75" class="bg-circle"></circle>
+            <circle
+              cx="90"
+              cy="90"
+              r="75"
+              class="progress"
+              id="progressCircle"
+            ></circle>
+          </svg>
+          <div class="percent" id="percentage">0</div>
+        </div>
+        <h3 id="scoreText"></h3>
+        <div class="buttons">
+          <button id="replayBtn">Replay Quiz</button>
+          <button id="quitBtn">Quit Quiz</button>
+        </div>
+      </div>
+    </div>
+    <!-- My JS -->
+    <script src="js/result.js"></script>
+  </body>
+</html>
