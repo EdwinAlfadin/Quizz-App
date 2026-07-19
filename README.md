@@ -1,6 +1,8 @@
-# 🧠 Quiz App
+# 🌐 Live Demo
 
-Live Demo https://edwinalfadin.github.io/Quizz-App/
+🔗 https://edwinalfadin.github.io/Quizz-App/
+
+# 🧠 Quiz App
 
 <p align="center">
   <img src="assets/logo.png" width="120" alt="Quiz App Logo">
