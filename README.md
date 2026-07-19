@@ -59,7 +59,7 @@ The application stores user data and scores using _Local Storage_, making it lig
 
 ## Quiz Page
 
-![Quiz](assets/question.png)
+![Quiz](assets/Question.png)
 
 ---
 
